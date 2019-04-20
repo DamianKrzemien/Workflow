@@ -9,5 +9,11 @@ namespace Workflow.BLL.Entities
         public int WorkerId { get; set; }
 
         public decimal Bid { get; set; }
+
+        public PaymentOnAccount PaymentOnAccount { get; set; }
+
+        public WorkerAddress WorkerAddress { get; set; }
+
+        public ReportedHours ReportedHours { get; set; }
     }
 }

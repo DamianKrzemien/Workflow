@@ -9,5 +9,7 @@ namespace Workflow.BLL.Entities
         public int IdStockItem { get; set; }
 
         public string ItemName { get; set; }
+
+        public bool IsDeleted { get; set; }
     }
 }

@@ -17,5 +17,9 @@ namespace Workflow.BLL.Entities
         public bool IsProjectFinished { get; set; }
 
         public string ProjectDescription { get; set; }
+
+        public ICollection<Report> Reports { get; set; }
+
+        public ICollection<Expense> Expenses { get; set; }
     }
 }

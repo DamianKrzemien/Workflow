@@ -11,5 +11,7 @@ namespace Workflow.BLL.Entities
         public decimal Amount { get; set; }
 
         public DateTime Date { get; set; }
+
+        public ICollection<Worker> Workers { get; set; }
     }
 }
